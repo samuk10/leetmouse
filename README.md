@@ -1,8 +1,9 @@
 # TLDR:
 
-1. edit ./driver/config.h
-2. run `/bin/bash install.sh` to install or reinstall when you want to make changes
+1. edit `./driver/config.h` with your desired settings
+2. run `/bin/bash install.sh` to install/reinstall or when you want to make changes
 3. run `/bin/bash rm.sh` to uninstall
+4. **Optional GUI:** https://github.com/samuk10/leetmouse-gui
 
 * Description
   The =LEETMOUSE= kernelmodule enables quake-live like acceleration for your mouse on Linux and is heavily inspired by previous works from [[http://accel.drok-radnik.com/old.html][Povohat's mouse driver for Windows.]]
