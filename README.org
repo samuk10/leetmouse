@@ -1,3 +1,9 @@
+# TLDR:
+
+1. edit ./driver/config.h
+2. run `/bin/bash install.sh` to install or reinstall when you want to make changes
+3. run `/bin/bash rm.sh` to uninstall
+
 * Description
   The =LEETMOUSE= kernelmodule enables quake-live like acceleration for your mouse on Linux and is heavily inspired by previous works from [[http://accel.drok-radnik.com/old.html][Povohat's mouse driver for Windows.]]
   =LEETMOUSE= basically fuses the original [[https://github.com/torvalds/linux/blob/master/drivers/hid/usbhid/usbmouse.c][Linux USB mouse driver]] code with the acceleration code-base and has been initially developed by [[https://github.com/chilliams][Christopher Williams]].
